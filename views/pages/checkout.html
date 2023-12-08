@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+
+<head>
+    <script src="/components/head.js" type="text/javascript" defer></script>
+    <reusable-head></reusable-head>
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+    <script src="/components/nav.js" type="text/javascript" defer></script>
+    <script src="/public/JavaScript/script.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/dist/tailwind.css">
+    <link rel="shortcut icon" href="/public/assets/bon_travel_favicon_v.2.png">
+
+    <title>Checkout | Bon travel</title>
+
+</head>
+
+
+<body class="box-border p-0 m-0 font-bon-font selection:bg-bon-geel w-full">
+
+
+    <reusable-header></reusable-header>
+
+    
+    <reusable-nav></reusable-nav>
+
+
+    <section class="w-full mt-52 mb-20 text-bon-zwart">
+        
+        <div id="checkout" class="m-32 max-lg:m-10" method="post" action="/place_order">
+            
+            <div id="checkout-titel">
+
+                <h1 class="text-2xl font-extrabold tracking-wide mb-6">Checkout</h1>
+    
+                <p>Vul uw gegevens in:</p>
+
+            </div>
+
+            <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center mb-16 mt-2">
+
+            <div id="checkout-inhoud" class="m-10 flex flex-col gap-7">
+
+                <form class="flex max-lg:flex-wrap">
+                    <label for="checkout-voornaam" class="w-1/12">Voornaam:</label>
+                    <input type="text" class="w-1/2 max-lg:w-full border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter" id="checkout-voornaam" placeholder="Uw voornaam" required>
+                </form>
+    
+                <form class="flex max-lg:flex-wrap">
+                    <label for="checkout-achternaam" class="w-1/12">Achternaam:</label>
+                    <input type="text" class="w-1/2 max-lg:w-full border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter" id="checkout-achternaam" placeholder="Uw achternaam" required>
+                </form>
+    
+                <form class="flex max-lg:flex-wrap">
+                    <label for="checkout-adres" class="w-1/12">Adres:</label>
+                    <input type="text" class="w-1/2 max-lg:w-full border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter" id="checkout-adres" placeholder="Uw adres" required>
+                </form>
+    
+                <form class="flex max-lg:flex-wrap">
+                    <label for="checkout-stad" class="w-1/12">Stad:</label>
+                    <input type="text" class="w-1/2 max-lg:w-full border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter" id="checkout-stad" placeholder="Stad" required>
+                </form>
+    
+                <form class="flex max-lg:flex-wrap">
+                    <label for="checkout-nummer" class="w-1/12">Telefoon nummer:</label>
+                    <input type="text" class="w-1/2 max-lg:w-full border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter" id="checkout-nummer" placeholder="Uw telefoon nummer" required>
+                </form>
+    
+                <form class="flex max-lg:flex-wrap">
+                    <label for="checkout-email" class="w-1/12">Email:</label>
+                    <input type="text" class="w-1/2 max-lg:w-full border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter" id="checkout-email" placeholder="Uw email" required>
+                </form>
+            
+            </div>
+
+            <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center mb-12 mt-16">
+
+            <div>
+                <form class="flex justify-evenly max-lg:flex-wrap max-lg:gap-5" action="betaling.html">
+                    <p class="text-xl font-extrabold mt-7"> Totale prijs: $<%= total %> </p>
+                    <input type="submit" class="bg-bon-blau-donker text-bon-wit cursor-pointer px-7 py-4 m-3 rounded-xl hover:bg-bon-geel hover:scale-105 hover:duration-300 hover:shadow-xl z-40" id="checkout-btn" value="Checkout">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <reusable-footer></reusable-footer>
+
+
+</body>
+</html>
+

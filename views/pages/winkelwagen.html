@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <script src="/components/head.js" type="text/javascript" defer></script>
+    <reusable-head></reusable-head>
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+    <script src="/components/nav.js" type="text/javascript" defer></script>
+    <script src="/public/JavaScript/script.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/dist/tailwind.css">
+    <link rel="shortcut icon" href="/public/assets/bon_travel_favicon_v.2.png">
+
+    <title>Winkelwagen | Bon travel</title>
+
+</head>
+
+<body class="box-border p-0 m-0 font-bon-font selection:bg-bon-geel w-full">
+
+
+    <reusable-header></reusable-header>
+
+    <reusable-nav></reusable-nav>
+
+    
+    <section class="w-full mt-52 mb-20 text-bon-zwart">
+
+        <div id="winkelwagen" class="flex gap-3 justify-center m-32 max-xl:mx-10 max-lg:flex-wrap max-lg:mx-10">   
+            
+            <div id="winkelwagen-overzicht" class="border w-3/4 h-full p-10 max-sm:w-full">
+                
+                <div id="winkelwagen-titel" class="flex justify-between mb-5 max-md:flex-wrap max-md:justify-center max-md:gap-10">
+                    <h3 class="text-2xl font-extrabold tracking-wide mt-2">Winkelwagen</h3>
+                    <p id="winkelwagen-totaproducten" class="text-xl bg-bon-blau-helder text-bon-wit p-5 -mt-3 rounded-full drop-shadow-3xl hover:scale-110 hover:duration-300">$<%= totalRS %> Producten</p>
+                </div>
+
+                <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center">
+
+                <form id="winkelwagen-tabel" action="">
+
+                    <div>
+                        <table id="winkelwagen-tabel-tabel" class="">
+                            <caption class="hidden">Producten in winkelmand</caption>
+                            <thead>
+                                <tr class="max-md:flex max-md:flex-wrap max-md:justify-center max-md:gap-10">
+                                    <th class="w-2/5">Product</th>
+                                    <th class="w-1/5">Reisgezelschap</th>
+                                    <th class="w-1/5">Prijs</th>
+                                    <th class="w-1/5">Total</th>
+                                </tr>
+                            </thead>
+    
+                            <tbody>
+
+                                <tr class="max-md:flex max-md:flex-wrap max-md:justify-center">
+
+                                    <% winkelwagen.forEach(function(item) { %>
+
+                                        <td>
+
+                                            <div id="productdetails">
+
+                                                <img src="Images/<%= item.image %>" alt="" class="object-cover max-h-36 w-full">
+                                                
+                                                <div id="productdetails-inhoud">
+                                                    
+                                                    <div class="flex flex-col items-center">
+
+                                                        <h2 class="font-bold">$<%= item.naam %></h2>
+                                                        
+                                                        <p class="text-sm">$<%= item.lengte %></p>
+
+                                                    </div>
+                                                    
+                                                    <form method="post" action="/product_verwijderen">
+                                                        <input type="hidden" name="id" value="<% item.id %>">
+                                                        <input type="submit" name="verwijderen" id="productdetails-verwijderen-btn" value="Verwijderen" class="cursor-pointer py-3 mt-7 text-xs">
+                                                    </form>
+
+                                                </div>
+
+                                            </div>
+
+                                        </td>
+
+                                        <td>
+
+                                            <div id="reisgezelschap" class="flex flex-col items-center">
+
+                                                <div>
+
+                                                    <form method="post" action="/product_aantal_veranderen" class="flex gap-1">
+                                                        <input type="hidden" value="<%= item.id %>" name="id">
+                                                        <input type="submit" value="-" id="edit-btn" name="aantal_minus_btn" class="text-bon-wit bg-bon-blau-donker px-2 my-2 rounded-full cursor-pointer active:scale-125 active:duration-300">
+                                                        <input type="number" name="aantal" value="$<%= item.reisgezelschap %>" class="w-10 border-2 rounded-md p-1 outline-none text-bon-zwarter appearance-none select-none" readonly>
+                                                        <input type="submit" value="+" id="edit-btn" name="aantal_plus_btn" class="text-bon-wit bg-bon-blau-donker px-2 my-2 rounded-full cursor-pointer active:scale-125 active:duration-300">
+                                                    </form>
+
+                                                </div>
+
+                                            </div>
+
+                                        </td>
+
+                                        <td>
+
+                                            <div id="prijs" class="flex flex-col items-center">
+
+                                                <% if (item.aanbieding){ %>
+                                                    <p>$<%= item.aanbieding %></p>
+                                                <% } else { %>
+                                                    <p>$<%= item.prijs %></p>
+                                                <% } %>
+
+                                            </div>
+
+                                        </td>
+
+                                        <td>
+                                            
+                                            <div id="total" class="flex flex-col items-center">
+
+                                                <% if (item.aanbieding) { %>
+                                                    <p class="font-extrabold text-lg">$<%= item.aanbieding * item.reisgezelschap %></p>
+                                                <% } else { %>
+                                                    <p class="font-extrabold text-lg">$<%= item.prijs * item.reisgezelschap %></p>
+                                                <% } %>
+
+                                            </div>
+
+                                        </td>
+
+                                    <% }) %>
+
+                                </tr>
+
+                            </tbody>
+                            
+                        </table>
+
+                    </div>
+
+                </form>
+
+                <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center">
+
+                <div id="terug" class="flex">
+                    <a href="javascript:history.back()" class="text-sm p-2 mt-5">← Terug naar overzicht</a>
+                </div>
+                
+            </div>
+
+            
+            <div id="order-overzicht" class="w-1/4 border p-10 max-lg:w-3/4 max-sm:w-full">
+                <div id="order-overzicht-titel" class="text-xl mb-1">Overzicht</div>
+                
+                <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center">
+               
+                <div id="order-overzicht-total-1" class="flex justify-between gap-10 my-6">
+                    <div id="totalproducten">
+                        <p>$<%= item.totalRS %> Producten</p>
+                    </div>
+    
+                    <div id="totalprijs" class="font-extrabold">
+                        <% if(item.aanbieding) { %>
+                            <p>$<%= item.aanbieding * totalRS %></p>
+                        <% } else { %>
+                            <p>$<%= item.prijs * totalRS %></p>
+                        <% } %>
+                    </div>
+                </div>
+
+                <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center">
+
+                <div id="order-overzicht-promocode" class="flex flex-col items-center m-5">
+                    
+                    <form>
+                        <label for="promocode-input" class="flex justify-center">Promocode</label>
+                        <input type="text" id="promocode-input" placeholder="Voer uw promocode in" class="mt-2 border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter w-full">
+                    </form>
+
+                    <form action="" class="mt-3">
+                        <label for="promocode-button"></label>
+                        <input type="submit" value="Toepassen" id="promocode-button" class="bg-bon-blau-donker text-bon-wit cursor-pointer px-5 py-2 m-3 rounded-xl hover:bg-bon-geel hover:scale-105 hover:duration-300 hover:shadow-xl z-40">
+                    </form>
+                </div>
+
+                <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center">
+                
+                <div id="order-overzicht-total-na-promocode">
+                    
+                    <div id="order-overzicht-tnp-total" class="flex justify-between gap-10 my-6">
+                        <h1>Totale prijs</h1>
+
+                        <div class="font-extrabold">
+                            <% if (item.aanbieding) { %>
+                                <p>$<%= item.aanbieding * totalRS - promocode.value %></p>
+                            <% } else { %>
+                                <p>$<%= item.prijs * totalRS - promocode.value %></p>
+                            <% } %>
+                        </div>
+                    </div>
+
+                    <form method="get" action="checkout.html" class="flex justify-center mt-3">
+                        <label for="order-overzicht-tnp-checkout-btn"></label>
+                        <input type="submit" id="order-overzicht-tnp-checkout-btn" value="Checkout" class="bg-bon-blau-donker text-bon-wit cursor-pointer px-7 py-4 m-3 rounded-xl hover:bg-bon-geel hover:scale-105 hover:duration-300 hover:shadow-xl z-40">
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <reusable-footer></reusable-footer>
+
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+
+<head>
+    <script src="/components/head.js" type="text/javascript" defer></script>
+    <reusable-head></reusable-head>
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+    <script src="/components/nav.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/dist/tailwind.css">
+    <link rel="shortcut icon" href="/public/assets/bon_travel_favicon_v.2.png">
+
+    <title>Nieuwsbrief | Bon travel</title>
+</head>
+
+
+<body class="box-border p-0 m-0 font-bon-font selection:bg-bon-geel w-full">
+
+
+    <reusable-header></reusable-header>
+
+    <reusable-nav></reusable-nav>
+
+
+    <section class="w-full mt-40 mb-52">
+        
+        <div id="hoofd" class="relative max-md:-mt-16">
+            <div id="hoofd-foto" class="">
+                <img src="/public/assets/newsletter_road2.jpg" alt="" class="h-96 w-full object-cover">
+            </div>
+            <div id="hoofd-titel" class="absolute top-1/3 right-3/4 max-md:right-2/4">
+                <h1 class="text-bon-wit font-extrabold text-3xl drop-shadow-3xl tracking-wide">Nieuwsbrief</h1>
+                <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center mt-5">
+            </div>
+        </div>
+        
+        <div id="content" class="m-20 p-5">
+            <div id="content-titel" class="flex flex-col">
+                <h1 class="text-xl font-bold">Inschrijven nieuwsbrief</h1>
+                <p class="text-bon-zwart text-sm mb-3">Bon travel stuurt u alles wat u moet weten!</p>
+                <ul class="list-disc ml-4 mb-4 text-bon-zwart">
+                    <li>Altijd als eerste op de hoogte van de scherpste aanbiedingen</li>
+                    <li>Ontvang wekelijks de meest populaire accommodaties</li>
+                    <li>Ontdek de meest fantastische vakantiebestemmingen</li>
+                    <li>Mis geen enkele actie of evenement</li>
+                    <li>Ga goed voorbereid op vakantie, laat u inspireren!</li>
+                </ul>
+            
+                <p class="text-bon-zwart text-sm mb-4">Wil u profiteren van al deze voordelen? Vul uw gegevens in en ontvang de Bon travel Nieuwsbrief.</p>
+            
+                <p class="text-bon-zwart text-sm">Jouw gegevens worden verwerkt volgens onze privacy verklaring.</p>
+            </div>
+    
+            <div id="content-email" class="mx-10 mt-7 max-md:mx-0 max-md:-ml-10">
+
+                <div id="content-email-input" class="flex flex-col py-5 my-2">
+                    <label for="content-email-input-input" class="font-semibold mb-5">Vul uw e-mailadres in</label>
+                    <div class="flex gap-2">
+                        <i class="fa-regular fa-envelope mt-2 text-bon-zwart"></i>
+                        <input type="text" id="content-email-input-input" placeholder="Uw e-mailadres" class="border-2 rounded p-1 focus:border-bon-geel outline-none">
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <a href="" class="bg-bon-blau-donker text-bon-wit p-3 px-36 rounded-3xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40">Opslaan</a>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <reusable-footer></reusable-footer>
+
+</body>
+</html>

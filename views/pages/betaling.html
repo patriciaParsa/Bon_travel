@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+
+<head>
+    <script src="/components/head.js" type="text/javascript" defer></script>
+    <reusable-head></reusable-head>
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
+    <script src="/components/nav.js" type="text/javascript" defer></script>
+    <script src="/public/JavaScript/script.js" type="text/javascript" defer></script>
+    <!-- <script src="https://www.paypal.com/sdk/js?client-id=Ac6fw2t-A28Cbs6_eHXlheZ8nyQ1OYlC5I3ZCbgeDV3bBKYbh0JRTIg_N4ECTSs7y7VfwzLVLAgjQk5R&currency=EUR" defer></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/dist/tailwind.css">
+    <link rel="shortcut icon" href="/public/assets/bon_travel_favicon_v.2.png">
+
+    <title>Betaling | Bon travel</title>
+
+</head>
+
+
+<body class="box-border p-0 m-0 font-bon-font selection:bg-bon-geel w-full">
+
+
+    <reusable-header></reusable-header>
+
+
+    <reusable-nav></reusable-nav>
+
+
+    <section class="w-full mt-52 mb-60 text-bon-zwart">
+
+        <div class="m-32">
+
+            <h3 class="text-2xl font-extrabold tracking-wide mb-6">Betaling</h3>
+
+            <hr class="border border-bon-blau-donker w-full rounded-b-lg flex justify-center mb-16 mt-2">
+
+            <h5 class="text-2xl font-extrabold tracking-wide mb-6 flex justify-center">Totale prijs: $<%= total %></h5>
+
+            <div class="flex justify-center mt-10">
+
+                <iframe src="https://www.sandbox.paypal.com/smart/buttons?style.layout=vertical&amp;style.color=gold&amp;style.shape=rect&amp;style.tagline=false&amp;components.0=buttons&amp;locale.country=US&amp;locale.lang=en&amp;sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWwuY29tL3Nkay9qcz9jbGllbnQtaWQ9dGVzdCZjdXJyZW5jeT1VU0QiLCJhdHRycyI6eyJkYXRhLXVpZCI6InVpZF91cWZ2a3lmamxwcmhsaHVpc21udnRuaHZxZWpyZnYifX0&amp;clientID=AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R&amp;sdkCorrelationID=bd3bb92e06c36&amp;storageID=uid_f1cfc29011_mtc6ndm6mdm&amp;sessionID=uid_dad51c124d_mtu6mde6mjy&amp;buttonSessionID=uid_107de0d563_mtu6mti6mjy&amp;env=sandbox&amp;fundingEligibility=eyJwYXlwYWwiOnsiZWxpZ2libGUiOnRydWUsInZhdWx0YWJsZSI6dHJ1ZX0sInBheWxhdGVyIjp7ImVsaWdpYmxlIjp0cnVlLCJwcm9kdWN0cyI6eyJwYXlJbjQiOnsiZWxpZ2libGUiOmZhbHNlLCJ2YXJpYW50IjpudWxsfSwicGF5bGF0ZXIiOnsiZWxpZ2libGUiOnRydWUsInZhcmlhbnQiOm51bGx9fX0sImNhcmQiOnsiZWxpZ2libGUiOnRydWUsImJyYW5kZWQiOnRydWUsImluc3RhbGxtZW50cyI6ZmFsc2UsInZlbmRvcnMiOnsidmlzYSI6eyJlbGlnaWJsZSI6dHJ1ZSwidmF1bHRhYmxlIjp0cnVlfSwibWFzdGVyY2FyZCI6eyJlbGlnaWJsZSI6dHJ1ZSwidmF1bHRhYmxlIjp0cnVlfSwiYW1leCI6eyJlbGlnaWJsZSI6dHJ1ZSwidmF1bHRhYmxlIjp0cnVlfSwiZGlzY292ZXIiOnsiZWxpZ2libGUiOnRydWUsInZhdWx0YWJsZSI6dHJ1ZX0sImhpcGVyIjp7ImVsaWdpYmxlIjpmYWxzZSwidmF1bHRhYmxlIjpmYWxzZX0sImVsbyI6eyJlbGlnaWJsZSI6ZmFsc2UsInZhdWx0YWJsZSI6dHJ1ZX0sImpjYiI6eyJlbGlnaWJsZSI6ZmFsc2UsInZhdWx0YWJsZSI6dHJ1ZX19fSwidmVubW8iOnsiZWxpZ2libGUiOnRydWV9LCJpdGF1Ijp7ImVsaWdpYmxlIjpmYWxzZX0sImNyZWRpdCI6eyJlbGlnaWJsZSI6ZmFsc2V9LCJhcHBsZXBheSI6eyJlbGlnaWJsZSI6ZmFsc2V9LCJzZXBhIjp7ImVsaWdpYmxlIjpmYWxzZX0sImlkZWFsIjp7ImVsaWdpYmxlIjpmYWxzZX0sImJhbmNvbnRhY3QiOnsiZWxpZ2libGUiOmZhbHNlfSwiZ2lyb3BheSI6eyJlbGlnaWJsZSI6ZmFsc2V9LCJlcHMiOnsiZWxpZ2libGUiOmZhbHNlfSwic29mb3J0Ijp7ImVsaWdpYmxlIjpmYWxzZX0sIm15YmFuayI6eyJlbGlnaWJsZSI6ZmFsc2V9LCJwMjQiOnsiZWxpZ2libGUiOmZhbHNlfSwiemltcGxlciI6eyJlbGlnaWJsZSI6ZmFsc2V9LCJ3ZWNoYXRwYXkiOnsiZWxpZ2libGUiOmZhbHNlfSwicGF5dSI6eyJlbGlnaWJsZSI6ZmFsc2V9LCJibGlrIjp7ImVsaWdpYmxlIjpmYWxzZX0sInRydXN0bHkiOnsiZWxpZ2libGUiOmZhbHNlfSwib3h4byI6eyJlbGlnaWJsZSI6ZmFsc2V9LCJtYXhpbWEiOnsiZWxpZ2libGUiOmZhbHNlfSwiYm9sZXRvIjp7ImVsaWdpYmxlIjpmYWxzZX0sIm1lcmNhZG9wYWdvIjp7ImVsaWdpYmxlIjpmYWxzZX19&amp;platform=desktop&amp;remembered.0=venmo&amp;experiment.enableVenmo=false&amp;flow=purchase&amp;currency=USD&amp;intent=capture&amp;commit=true&amp;vault=false&amp;debug=false&amp;applePaySupport=false&amp;supportsPopups=true&amp;supportedNativeBrowser=false" width="300" height="200" frameborder="0"></iframe>
+            
+            </div>
+
+            <!-- <div id="paypal-button-container"></div> -->
+
+            <!-- <p id="result-message"></p> -->
+
+        </div>
+
+    </section>
+
+
+    <reusable-footer></reusable-footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!-- INSERT TO EACH PAGE ONCE FINISHED -->
+<html lang="nl" class="scroll-smooth">
+<!-- INSERT TO EACH PAGE ONCE FINISHED -->
+<head>
+    <script src="../../components/head.js" type="text/html" defer></script>
+    <reusable-head></reusable-head>
+    <script src="../../components/header.js" type="text/javascript" defer></script>
+    <script src="../../components/footer.js" type="text/javascript" defer></script>
+    <script src="../../components/nav.js" type="text/javascript" defer></script>
+    <script src="../../components/bestemmingen.js" type="text/javascript" defer></script>
+    <script src="../../public/JavaScript/script.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../../dist/tailwind.css">
+    <link rel="shortcut icon" href="/public/assets/bon_travel_favicon_v.2.png">
+
+    <title>Homepage | Bon travel | Zonvakantie, stedentrips, autorondreizen en meer!</title>
+</head>
+
+<!-- INSERT TO EACH PAGE ONCE FINISHED -->
+<body class="box-border p-0 m-0 font-bon-font selection:bg-bon-geel w-full overflow-x-hidden">
+<!-- INSERT TO EACH PAGE ONCE FINISHED -->
+
+    <reusable-header></reusable-header>
+
+    <reusable-nav></reusable-nav>
+
+    <div id="home-content" class="mt-36">
+
+        <section id="bestemmingen-search-box" class="relative group">
+            
+            <div id="search-box-img" class="">
+                <img src="/public/assets/search-box-img.jpg" class="w-full h-96 object-cover object-bottom group-hover:opacity-70 group-hover:duration-500 max-md:-mt-12" alt="adventure">
+            </div>
+
+            <div id="search-box-box" class="absolute top-10 left-1/4 right-1/4 max-md:top-14 max-md:flex max-md:left-10 max-md:right-10 group">
+                <div id="search-box-box-titel" class="flex justify-center mb-5 max-md:items-center ">
+                    <h1 class="text-bon-wit text-3xl drop-shadow-3xl duration-300 ease-linear select-none group-hover:text-bon-geel group-hover:drop-shadow-none group-hover:bg-bon-wit group-hover:rounded group-hover:px-5 group-hover:py-2 group-hover:shadow-2xl">Vind jouw perfecte vakantie!</h1>
+                </div>
+                <div id="search-box-box-inputs" class="bg-bon-wit text-bon-wit bg-opacity-60 p-7 m-auto grid grid-cols-2 gap-5 max-md:grid-cols-1 max-md:-mt-14">  
+                    <form action="" class="flex gap-1">
+                        <label for="input-zoek"><i class="fa-solid fa-magnifying-glass mt-4"></i></label>
+                        <input type="text" id="input-zoek" placeholder="Zoek naar bestemming" class="border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter w-full" autofocus>
+                    </form>
+                    
+                    <form action="" class="flex flex-col">
+                        <label for="input-bestemming">Bestemming:</label>
+                        <input type="text" id="input-bestemming" placeholder="Waar wil je heen?" class="border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter">
+                    </form>
+                    
+                    <form action="" class="flex flex-col">
+                        <label for="input-duur">Lengte:</label>
+                        <input type="text" id="input-duur" placeholder="Duur" class="border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter">
+                    </form>
+
+                    <form action="" class="flex flex-col">
+                        <label for="input-reisgezelschap">Reisgezelschap:</label>
+                        <input type="text" id="input-reisgezelschap" placeholder="Aantal personen" class="border-2 rounded-md p-1 focus:border-bon-geel outline-none text-bon-zwarter">
+                    </form>
+                    
+                    <form action="">
+                        <label for="input-button"></label>
+                        <input type="button" id="input-button" value="Bekijk resultaten" class="bg-bon-zwart p-4 text-bon-wit mt-2 rounded-lg hover:bg-bon-geel hover:duration-300 hover:cursor-pointer">
+                    </form>
+                    
+
+                </div> 
+            </div>
+
+        </section>
+
+        <section class="w-full my-20 flex justify-center" id="inleiding">
+            <div id="home-content" class="flex flex-col items-center mx-20 p-3">
+                <h1 class="font-extrabold text-3xl mb-3 text-bon-geel selection:bg-bon-blau-helder">Boek snel en voordelig je vakantie bij Bon travel!</h1>
+                <span class="leading-7 text-bon-zwart w-4/5">
+                    <p class="font-semibold text-lg">Hoog servicelevel en de beste prijzen.</p>
+                    <p>Bon travel is jouw online reisbureau waar je een hoge service, een ruim aanbod en een scherpe prijs kunt verwachten. Neem eens een kijkje op onze zoek en boek pagina waar je door de handige filters in te vullen zelf kunt beslissen wat jij belangrijk vindt op vakantie. Hierdoor kun je zelf naar eigen wensen je vakantie uitkiezen.
+                    Persoonlijk advies is uiteraard ook mogelijk. Onze medewerkers staan je graag te woord via ons servicenummer +31 6 3781317, maar uiteraard ook via e-mail. Check tevens onze social media Pinterest, TikTok en Youtube.</p>
+                    <br>
+                    <p>De pret begint al bij het uitzoeken van jouw vakantie. Waar gaat jouw volgende vakantie naartoe?</p>
+                </span>
+                <a href="#bestemmingen" id="btn" class="mt-7 bg-bon-geel text-bon-wit drop-shadow-3xl p-5 text-lg font-extrabold rounded hover:scale-110 hover:duration-300 ease-out">Naar bestemmingen</a>
+            </div>
+        </section>
+
+        <section id="bestemmingen" class="scroll-mt-44">
+
+            <reusable-bestemmingen></reusable-bestemmingen>
+            
+        </section>
+
+        <section class="w-full mb-32">
+            <div id="vinkjes-bar" class="text-sm">
+                <ul class="flex justify-center gap-5 m-auto p-5 text-bon-zwart">
+                    <li>
+                        <i class="fa-solid fa-check text text-bon-online"></i>
+                        <a href="/views/pages/over_ons.html" class="hover:text-bon-geel hover:duration-300">Compleet ontzorgd op reis</a>
+                    </li>
+                    
+                    <li>
+                        <i class="fa-solid fa-check text-bon-online"></i>
+                        <a href="/views/pages/over_ons.html" class="hover:text-bon-geel hover:duration-300">Jouw lokale reisexpert</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-check text-bon-online"></i>
+                        <a href="/views/pages/contact.html" class="hover:text-bon-geel hover:duration-300">Flexibel omboeken</a>
+                    </li> 
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="w-full my-10 flex max-md:flex-col">
+            
+            <div id="waarom-bon-travel" class="flex flex-col basis-1/2 items-center">
+                <div id="waarom-titel">
+                    <h1 class="font-extrabold text-bon-geel selection:bg-bon-blau-helder text-xl">Waarom Bon travel?</h1>
+                </div>
+
+                <hr class="border border-bon-blau-donker w-1/2 rounded-b-lg flex justify-center m-5">
+
+                <div id="waarom-lijst" class="mt-1 w-3/4">
+                    <ul class="flex flex-col gap-5 text-xl text-bon-zwart">
+                        <li class="flex">
+                            <i class="fa-solid fa-check text-bon-geel selection:bg-bon-blau-helder -mt-1 mr-2 text-3xl"></i>
+                            <p>Al 10 jaren sterk op het markt met zijn beste aanbiedingen</p>
+                        </li>
+                            
+                        <li class="flex">
+                            <i class="fa-solid fa-check text-bon-geel selection:bg-bon-blau-helder -mt-1 mr-2 text-3xl"></i>
+                            <p>Elke reis met Bon travel is uniek en bijzonder</p>
+                        </li>
+
+                        <li class="flex">
+                            <i class="fa-solid fa-check text-bon-geel selection:bg-bon-blau-helder -mt-1 mr-2 text-3xl"></i>
+                            <p>Bon travel laat je meer zien dan alleen de toeristische buitenkant door zijn praktische tips en aangepaste routes</p>
+                        </li>
+                        
+                        <li class="flex">
+                            <i class="fa-solid fa-check text-bon-geel selection:bg-bon-blau-helder -mt-1 mr-2 text-3xl"></i>
+                            <p>100% flexibel en afgestemd op jouw wensen</p>
+                        </li>
+
+                        <li class="flex">
+                            <i class="fa-solid fa-check text-bon-geel selection:bg-bon-blau-helder -mt-1 mr-2 text-3xl"></i>
+                            <p>Goede service & eigen kantoor in Amsterdam</p>
+                        </li>
+
+                        <li class="flex">
+                            <i class="fa-solid fa-check text-bon-geel selection:bg-bon-blau-helder -mt-1 mr-2 text-3xl"></i>
+                            Vertrouwd op reis; Wij zijn een lid van ANVR & SGR
+                        </li>
+
+                        <li class="flex">
+                            <i class="fa-solid fa-check text-bon-geel selection:bg-bon-blau-helder -mt-1 mr-2 text-3xl"></i>
+                            Wij bieden ons service onder meer dan 6 talen, waaronder Engels, Duits, Frans, Spaans, Tsjechisch en Noors
+                        </li>
+                    </ul>               
+                </div>
+
+                <!-- <div id="waarom-img">
+                    <img src="/public/assets/search-box-img.jpg" alt="">
+                </div> -->
+
+                <div id="waarom-tekst" class="m-20 mx-40">
+                    <h1 class="font-extrabold text-bon-geel selection:bg-bon-blau-helder text-xl mb-3">Bon travel = Snelheid, Flexibiliteit, Zekerheid</h1>
+                    <p class="leading-7 text-lg text-bon-zwart">Al meer dan 10 jaar laten we je de wereld zien. Dat is meer dan 10 jaar aan reiservaring, avonturen en onvergetelijke momenten. 
+                        Vanaf het allereerste begin zit verantwoord reizen in ons DNA, als reisorganisatie op het gebied van individuele reizen, 
+                        hebben we ons dan ook altijd 100% ingezet voor onze reizigers en de communities die we bezoeken. 
+                        De routes op onze bestemmingen hebben we zelf uitgestippeld, het liefst zo ver mogelijk van de massa. 
+                        Onze hotels zijn handpicked en liggen veelal op unieke plekken waarbij we zoveel mogelijk gebruik maken van lokale ondernemers, 
+                        zodat iedereen mee profiteert van de reizen die we maken. Daar komt bij dat we klimaat positief werken. Dat betekent dat we méér CO2 compenseren 
+                        dan we met onze reizen uitstoten en tijdens de reis zoveel mogelijk reduceren. Zo reizen we samen de wereld mooier. </p>
+                </div>
+
+                <hr class="border border-bon-blau-donker w-1/2 rounded-b-lg flex justify-center m-5">
+            </div>
+
+            <div id="bon-reviews" class="basis-1/2 flex flex-col items-center">
+                
+                <div class="bon-reviews-titel">
+                    <h1 class="font-extrabold text-bon-geel selection:bg-bon-blau-helder text-xl">Reviews van onze klanten</h1>
+                </div>
+
+                <hr class="border border-bon-blau-donker w-1/2 rounded-b-lg flex justify-center m-5">
+
+                <div class="bon-reviews-reviews grid grid-cols-1 gap-10 mt-7 justify-items-center">
+
+                    <div class="bon-reviews-review w-3/4">
+                        
+                        <div class="review-inhoud border p-5">    
+
+                            <div class="review-deel-1 flex gap-10 max-xl:flex-wrap max-xl:justify-center">
+                                <div class="review-auteur bg-bon-blau-donker text-bon-wit p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <h3>Cassidy</h3>
+                                </div>
+    
+                                <div class="review-sterren flex flex-col items-center bg-bon-blau-helder p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <div class="review-sterren-sterren flex text-bon-geel selection:bg-bon-blau-helder drop-shadow-md">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="text-xs text-bon-wit">5/5</h3>
+                                </div>
+    
+                                <div class="review-datum bg-bon-blau-helder text-bon-wit p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <p>17.10.2023</p>
+                                </div>
+                            </div>
+    
+                            <div class="review-deel-2 flex flex-col mt-7">
+                                <div class="review-titel">
+                                    <h3 class="font-bold text-base">Geweldige reis!</h3>
+                                </div>
+        
+                                <div class="review-tekst mt-2">
+                                    <p class="leading-5 text-bon-zwart text-sm">Wij hebben onlangs gereisd met het reisbureau Bon travel en wij zijn heel tevreden met hun service! Ons reis vond plaats in Californië. 
+                                        wij kozen voor de roadtrip optie en gingen in totaal 3 weken op reis. Het personeel van Bon travel was altijd bereikbaar indien we iets moesten bespreken of nodig hadden. 
+                                        Toen we in Los Angeles aankwamen, wachtte al op ons een meneer met een nieuwe auto voor onze roadtrip. Wij hadden super veel plezier over die 3 weken. 
+                                        Door deze review wil ik Bon travel zeker verder iedereen aanbevelen!    -Cassidy & John</p>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                    </div>
+
+                    <div class="bon-reviews-review w-3/4">
+                        
+                        <div class="review-inhoud border p-5">    
+
+                            <div class="review-deel-1 flex gap-10 max-xl:flex-wrap max-xl:justify-center">
+                                <div class="review-auteur bg-bon-blau-donker text-bon-wit p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <h3>Henry</h3>
+                                </div>
+    
+                                <div class="review-sterren flex flex-col items-center bg-bon-blau-helder p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <div class="review-sterren-sterren flex text-bon-geel selection:bg-bon-blau-helder drop-shadow-md">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="text-xs text-bon-wit">5/5</h3>
+                                </div>
+    
+                                <div class="review-datum bg-bon-blau-helder text-bon-wit p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <p>7.12.2022</p>
+                                </div>
+                            </div>
+    
+                            <div class="review-deel-2 flex flex-col mt-7">
+                                <div class="review-titel">
+                                    <h3 class="font-bold text-base">Aan te bevelen</h3>
+                                </div>
+        
+                                <div class="review-tekst mt-2">
+                                    <p class="leading-5 text-bon-zwart text-sm">Hele goede ervaring met dit reisbureau. Aan te bevelen. Het organiseren van een groepsreis voor 31 mensen naar een buitenlandse bestemming is een hele uitdaging. Super gelopen allemaal. Vriendelijk, correct, denken mee, zoeken naar oplossingen en ontzorgen je. Top vakantie gehad!!</p>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                    </div>
+
+                    <div class="bon-reviews-review w-3/4">
+                        
+                        <div class="review-inhoud border p-5">    
+
+                            <div class="review-deel-1 flex gap-10 max-xl:flex-wrap max-xl:justify-center">
+                                <div class="review-auteur bg-bon-blau-donker text-bon-wit p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <h3>Willie</h3>
+                                </div>
+    
+                                <div class="review-sterren flex flex-col items-center bg-bon-blau-helder p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <div class="review-sterren-sterren flex text-bon-geel selection:bg-bon-blau-helder drop-shadow-md">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="text-xs text-bon-wit">5/5</h3>
+                                </div>
+    
+                                <div class="review-datum bg-bon-blau-helder text-bon-wit p-5 rounded-full border-bon-zwart drop-shadow-3xl hover:scale-110 hover:duration-300">
+                                    <p>1.9.2023</p>
+                                </div>
+                            </div>
+    
+                            <div class="review-deel-2 flex flex-col mt-7">
+                                <div class="review-titel">
+                                    <h3 class="font-bold text-base">heerlijke vakantie gehad</h3>
+                                </div>
+        
+                                <div class="review-tekst mt-2">
+                                    <p class="leading-5 text-bon-zwart text-sm">Wij zijn net terug van Taiwan en hebben een heerlijke vakantie gehad.  Alles was prima geregeld door Bon en we kregen ook ter plekke steeds een appje als er een transfer aanstaande was. Erg prettig. Het eiland is echt voor de vakantieganger die van strand en zee houdt. Veel excursiemogelijkheden, heerlijk weer, lekker eten en vriendelijke mensen.
+                                        Santiago is voor de liefhebber van rust en natuur.  We verbleven in de eco lodge.
+                                        Dit is de plek om even rust te pakken en je wordt uitstekend verzorgd door Patricia en Walter. Je kunt hier ook prima wandelen.
+                                        Wij kijken terug op een heerlijke vakantie en zullen in de toekomst zeker vaker via Bon reizen.  Ook willen we in de toekomst nog meer van de andere reizen ontdekken.</p>
+                                </div>
+                            </div>
+    
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+
+        <section>
+            <div id="cookies" class="hidden">
+                <div id="cookies-container" class="w-full m-auto">
+                    <div id="cookies-cookies" class="flex flex-col justify-center p-10 px-32 rounded-t-lg w-full fixed bottom-0 bg-bon-wit shadow-top z-50">
+                        <img src="/public/assets/cookie.png" class="h-14 w-14 mb-5" alt="">
+                        <p class="text-lg font-bold">Optionele cookies en technologieën toestaan?</p>
+                        <p class="my-3">We gebruiken cookies en andere technologieën om onze site betrouwbaar te laten werken, 
+                            om ons in staat te stellen statistische analyses uit te voeren en om u relevante inhoud en gepersonaliseerde advertenties op de site en andere kanalen te tonen.
+                            Als je het niet eens bent met het gebruik van optionele cookies en technologieën, klik dan hier. 
+                            Je kunt je selectie in de instellingen aanpassen of deze onder aan de pagina op elk gewenst moment voor de toekomst wijzigen.</p>
+                        <a class="font-bold text-bon-geel selection:bg-bon-blau-helder" href="/views/pages/privacybeleid.html">Privacybeleid</a>
+                        <button class="rounded-lg p-5 my-3 cursor-pointer bg-bon-blau-helder text-bon-wit shadow-lg w-1/6" id="cookies-cookies-button">Toestaan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="carrousel-bar" class="w-full flex p-10 max-lg:flex-wrap max-lg:justify-center">
+
+            <div id="carrousel-bar-titel" class="basis-1/2 flex flex-col items-center mt-10">
+                <p class="text-bon-geel selection:bg-bon-blau-helder text-lg font-extrabold">Vertrouwd en verantwoord op reis:</p>
+                <hr class="border border-bon-blau-donker w-1/4 rounded-b-lg flex justify-center m-5 max-xl:w-2/4 max-lg:w-full">
+            </div>
+
+            <div id="carrousel-bar-inhoud" class="basis-1/2 flex items-center justify-center max-w-3xl w-full h-24 bg-bon-wit relative mt-2">
+                
+                <i class="fa-solid fa-chevron-left absolute h-full w-10 p-4 flex justify-center items-center text-bon-zwarter duration-200 ease-linear hover:text-bon-geel hover:cursor-pointer left-0 bg-gradient-to-r from-bon-wit from-30% to-transparent z-40" id="carrousel-bar-inhoud-prev"></i>
+                <div class="h-80 w-full overflow-hidden" id="carrousel-bar-inhoud-image-container">
+                    <div class="flex items-center justify-around h-full w-max duration-500 ease-linear" id="carrousel-bar-inhoud-glider">
+                        <a href="https://www.reisbureaumaroctravel.nl/" target="_blank"><img class="h-10 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/maroctravel.png" alt=""></a>
+                        <a href="https://www.sunweb.nl/" target="_blank"><img class="h-10 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/sunweb.svg" alt=""></a>
+                        <a href="https://www.tui.nl/" target="_blank"><img class="h-12 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/tui.png" alt=""></a>
+                        <a href="https://travelifesustainability.com/" target="_blank"><img class="h-12 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/travelife.png" alt=""></a>
+                        <a href="https://www.ns.nl/" target="_blank"><img class="h-12 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/ns.png" alt=""></a>
+                        <a href="https://www.klm.nl/" target="_blank"><img class="h-12 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/klm.png" alt=""></a>
+                        <a href="https://www.wereldstadgidsen.com/" target="_blank"><img class="h-12 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/wereldstadgidsen.png" alt=""></a>
+                        <a href="https://9292.nl/" target="_blank"><img class="h-12 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/9292.png" alt=""></a>
+                        <a href="https://www.sgr.nl/" target="_blank"><img class="h-12 w-1/2 p-3 ml-16 mr-12 object-contain" src="/public/assets/sgr.svg" alt=""></a>
+                        <a class="-mr-[900px] max-sm:-mr-[700px]" href="https://www.kiwi.com/nl/" target="_blank"><img class="h-24 w-1/2 p-3 ml-16 object-contain" src="/public/assets/kiwi.png" alt=""></a>
+                    </div>
+                </div>
+                <i class="fa-solid fa-chevron-right absolute h-full w-10 p-4 flex justify-center items-center text-bon-zwarter duration-200 ease-linear hover:text-bon-geel hover:cursor-pointer right-0 bg-gradient-to-l from-bon-wit from-30% to-transparent z-40" id="carrousel-bar-inhoud-next"></i>
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+    <reusable-footer></reusable-footer>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "tailwindcss/colors";
+
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+
+*:focus {
+    outline: none;
+}
+
+*:focus-visible {
+    border-width: 2px;
+    border-color:#FAC726;
+}
+
+#nav-ul ul li {
+    margin: 3px;
+    padding: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-ul ul li:hover {
+    background-color: #ffffff;
+    border-radius: 6px;
+    transition: all 0.3s linear;
+    color: #FAC726;
+    cursor: pointer;
+}
+
