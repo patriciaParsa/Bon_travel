@@ -10,10 +10,10 @@ headerTemplate.innerHTML = `
 <link rel="shortcut icon" href="/public/assets/bon_travel_favicon_v.2.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <!-- scripts -->
-<script src="/components/header.js" type="text/javascript" defer></script>
-<script src="/components/nav.js" type="text/javascript" defer></script>
-<script src="/components/footer.js" type="text/javascript" defer></script>
-<script src="/public/JavaScript/script.js" type="text/javascript" defer></script>
+<script src="header.js" type="text/javascript" defer></script>
+<script src="nav.js" type="text/javascript" defer></script>
+<script src="footer.js" type="text/javascript" defer></script>
+<script src="../public/Javascript/script.js" type="text/javascript" defer></script>
 `;
 
 class Head extends HTMLElement {
@@ -37,7 +37,7 @@ class Head extends HTMLElement {
 customElements.define('reusable-head', Head);
 
 // DEVELOPER
-//     <script src="/components/head.js" type="text/javascript" defer></script>
+//     <script src="head.js" type="text/javascript" defer></script>
 {/* <reusable-head></reusable-head> */}
 
 
