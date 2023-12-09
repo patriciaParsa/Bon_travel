@@ -16,7 +16,7 @@ headerTemplate.innerHTML =
                     <li class="group block">
 
                         <div id="nav-bestemmingen" class="block">
-                            <a class="flex gap-1 -mt-4 hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500" href="/views/pages/bestemmingen.html">
+                            <a class="flex gap-1 -mt-4 hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500" href="../views/pages/bestemmingen.html">
                                 <p>Bestemmingen</p>
                                 <i class="fa-solid fa-angle-down mt-1"></i>
                             </a>
@@ -27,22 +27,22 @@ headerTemplate.innerHTML =
                             <ul class="flex flex-col mt-1 p-3 m-1 bg-bon-blau-donker rounded">
                 
                                 <li>
-                                    <a href="/views/pages/bestemming/californie/californie.html">Californië</a>
+                                    <a href="../views/pages/bestemming/californie/californie.html">Californië</a>
                                 </li>
                                 <li>
-                                    <a href="/views/pages/bestemming/frankrijk/frankrijk.html">Frankrijk</a>
+                                    <a href="../views/pages/bestemming/frankrijk/frankrijk.html">Frankrijk</a>
                                 </li>
                                 <li>
-                                    <a href="/views/pages/bestemming/spanje/spanje.html">Spanje</a>
+                                    <a href="../views/pages/bestemming/spanje/spanje.html">Spanje</a>
                                 </li>
                                 <li>
-                                    <a href="/views/pages/bestemming/taiwan/taiwan.html">Taiwan</a>
+                                    <a href="../views/pages/bestemming/taiwan/taiwan.html">Taiwan</a>
                                 </li>
                                 <li>
-                                    <a href="/views/pages/bestemming/singapore/singapore.html">Singapore</a>
+                                    <a href="../views/pages/bestemming/singapore/singapore.html">Singapore</a>
                                 </li>
                                 <li>
-                                    <a href="/views/pages/bestemming/hawai/hawai.html">Hawaï</a>
+                                    <a href="../views/pages/bestemming/hawai/hawai.html">Hawaï</a>
                                 </li>
                 
                             </ul>
@@ -51,8 +51,8 @@ headerTemplate.innerHTML =
             
                     </li>
 
-                    <li><a class="hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="/views/pages/over_ons.html">Over ons</a></li>
-                    <li><a class="hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="/views/pages/contact.html">Contact</a></li>
+                    <li><a class="hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../views/pages/over_ons.html">Over ons</a></li>
+                    <li><a class="hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../views/pages/contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>    
