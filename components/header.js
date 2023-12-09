@@ -16,10 +16,10 @@ headerTemplate.innerHTML =
             <div id="logo" class="flex justify-between p-8 text-bon-wit">
 
                 <div id="logo-1" class="text-3xl font-bold flex">
-                    <a href="/views/pages/index.html">
-                        <img src="/public/assets/bon_travel_favicon_v.2.png" class="w-12 h-12 -mt-2 mr-2" alt="">
+                    <a href="../views/pages/index.html">
+                        <img src="../public/assets/bon_travel_favicon_v.2.png" class="w-12 h-12 -mt-2 mr-2" alt="">
                     </a>
-                    <a href="/views/pages/index.html" class="-mt-1 drop-shadow-md select-none">Bon travel</a>
+                    <a href="../views/pages/index.html" class="-mt-1 drop-shadow-md select-none">Bon travel</a>
                 </div>
 
                 <div class="mt-2 max-lg:hidden">
@@ -91,7 +91,7 @@ headerTemplate.innerHTML =
                         </li>
                 
                         <li id="winkelwagen">
-                            <a href="winkelwagen.html">
+                            <a href="../views/pages/winkelwagen.html">
                                 <i class="fa-solid fa-cart-shopping hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500   max-md:p-2"></i>
                             </a>
                         </li>
@@ -130,13 +130,13 @@ headerTemplate.innerHTML =
 
         <ul id="menu" class="flex flex-col items-center gap-5 m-auto mt-16 text-bon-wit drop-shadow-md">
             <li>
-                <a class="menu-link flex gap-1 -mr-3 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500" href="/views/pages/bestemmingen.ejs" target="_blank">
+                <a class="menu-link flex gap-1 -mr-3 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500" href="../views/pages/bestemmingen.ejs" target="_blank">
                     <p>Bestemmingen</p>
                     <i class="fa-solid fa-angle-down mt-1"></i>
                 </a>
             </li>
-            <li><a class="menu-link inline-block mb-2 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="/views/pages/over_ons.html" target="_blank">Over ons</a></li>
-            <li><a class="menu-link hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="/views/pages/contact.html" target="_blank">Contact</a></li>
+            <li><a class="menu-link inline-block mb-2 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../views/pages/over_ons.html" target="_blank">Over ons</a></li>
+            <li><a class="menu-link hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../views/pages/contact.html" target="_blank">Contact</a></li>
         </ul>
 
         <ul id="header-bar-right-1-hidden" class="flex flex-col gap-5 m-auto drop-shadow-md">
@@ -177,13 +177,13 @@ headerTemplate.innerHTML =
 <div id="cookies" class="hidden">
     <div id="cookies-container" class="w-full m-auto">
         <div id="cookies-cookies" class="flex flex-col justify-center p-10 px-32 rounded-t-lg w-full fixed bottom-0 bg-bon-wit shadow-top z-50">
-            <img src="/public/assets/cookie.png" class="h-14 w-14 mb-5" alt="">
+            <img src="../public/assets/cookie.png" class="h-14 w-14 mb-5" alt="">
             <p class="text-lg font-bold">Optionele cookies en technologieën toestaan?</p>
             <p class="my-3">We gebruiken cookies en andere technologieën om onze site betrouwbaar te laten werken, 
                 om ons in staat te stellen statistische analyses uit te voeren en om u relevante inhoud en gepersonaliseerde advertenties op de site en andere kanalen te tonen.
                 Als je het niet eens bent met het gebruik van optionele cookies en technologieën, klik dan hier. 
                 Je kunt je selectie in de instellingen aanpassen of deze onder aan de pagina op elk gewenst moment voor de toekomst wijzigen.</p>
-            <a class="font-bold text-bon-geel" href="/views/pages/privacybeleid.html">Privacybeleid</a>
+            <a class="font-bold text-bon-geel" href="../views/pages/privacybeleid.html">Privacybeleid</a>
             <button class="rounded-lg p-5 my-3 cursor-pointer bg-bon-blau-helder text-bon-wit shadow-lg w-1/6" id="cookies-cookies-button">Toestaan</button>
         </div>
     </div>
