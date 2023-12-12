@@ -106,7 +106,7 @@ headerTemplate.innerHTML = `
                     <ul class="flex flex-wrap mt-1">
 
                         <li>
-                            <a href="https://www.kiwi.com/nl/" target="_blank"><img class="h-4 m-2 object-contain" src="../public/assets/kiwi.png" alt=""></a>
+                            <a href="https://www.kiwi.com/nl/" target="_blank"><img class="h-4 m-2 object-contain" src="../assets/kiwi.png" alt=""></a>
                         </li>
 
                         <li>
