@@ -16,10 +16,10 @@ headerTemplate.innerHTML =
             <div id="logo" class="flex justify-between p-8 text-bon-wit">
 
                 <div id="logo-1" class="text-3xl font-bold flex">
-                    <a href="../views/pages/index.html">
-                        <img src="public/assets/bon_travel_favicon_v.2.png" class="w-12 h-12 -mt-2 mr-2" alt="">
+                    <a href="../pages/index.html">
+                        <img src="../public/assets/bon_travel_favicon_v.2.png" class="w-12 h-12 -mt-2 mr-2" alt="">
                     </a>
-                    <a href="../views/pages/index.html" class="-mt-1 drop-shadow-md select-none">Bon travel</a>
+                    <a href="../pages/index.html" class="-mt-1 drop-shadow-md select-none">Bon travel</a>
                 </div>
 
                 <div class="mt-2 max-lg:hidden">
@@ -183,7 +183,7 @@ headerTemplate.innerHTML =
                 om ons in staat te stellen statistische analyses uit te voeren en om u relevante inhoud en gepersonaliseerde advertenties op de site en andere kanalen te tonen.
                 Als je het niet eens bent met het gebruik van optionele cookies en technologieën, klik dan hier. 
                 Je kunt je selectie in de instellingen aanpassen of deze onder aan de pagina op elk gewenst moment voor de toekomst wijzigen.</p>
-            <a class="font-bold text-bon-geel" href="../views/pages/privacybeleid.html">Privacybeleid</a>
+            <a class="font-bold text-bon-geel" href="../pages/privacybeleid.html">Privacybeleid</a>
             <button class="rounded-lg p-5 my-3 cursor-pointer bg-bon-blau-helder text-bon-wit shadow-lg w-1/6" id="cookies-cookies-button">Toestaan</button>
         </div>
     </div>
