@@ -35,7 +35,7 @@ headerTemplate.innerHTML = `
                 <div class="inhoud flex flex-col items-center">
                     <h3 class="bg-bon-geel text-bon-wit flex justify-center font-extrabold w-1/2 rounded-b-xl p-1 group-hover:shadow-xl">Frankrijk</h3>
                     <p class="text-center text-sm p-5 w-full text-bon-zwart group">Bekend van Franse wijnen, lavendelvelden, Eiffeltoren, stokbroden of kunst. Frankrijk is een geliefd vakantieland!</p>
-                    <a href="../views/pages/bestemming/frankrijk/frankrijk.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Frankrijk</a>
+                    <a href="../pages/bestemming/frankrijk/frankrijk.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Frankrijk</a>
                 </div>
             </div>
 
