@@ -17,7 +17,7 @@ headerTemplate.innerHTML =
 
                 <div id="logo-1" class="text-3xl font-bold flex">
                     <a href="../pages/index.html">
-                        <img src="../public/assets/bon_travel_favicon_v.2.png" class="w-12 h-12 -mt-2 mr-2" alt="">
+                        <img src="../assets/bon_travel_favicon_v.2.png" class="w-12 h-12 -mt-2 mr-2" alt="">
                     </a>
                     <a href="../pages/index.html" class="-mt-1 drop-shadow-md select-none">Bon travel</a>
                 </div>
