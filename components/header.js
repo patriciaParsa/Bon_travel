@@ -91,7 +91,7 @@ headerTemplate.innerHTML =
                         </li>
                 
                         <li id="winkelwagen">
-                            <a href="../views/pages/winkelwagen.html">
+                            <a href="../pages/winkelwagen.html">
                                 <i class="fa-solid fa-cart-shopping hover:bg-bon-geel rounded p-4 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500   max-md:p-2"></i>
                             </a>
                         </li>
@@ -130,13 +130,13 @@ headerTemplate.innerHTML =
 
         <ul id="menu" class="flex flex-col items-center gap-5 m-auto mt-16 text-bon-wit drop-shadow-md">
             <li>
-                <a class="menu-link flex gap-1 -mr-3 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500" href="../views/pages/bestemmingen.ejs" target="_blank">
+                <a class="menu-link flex gap-1 -mr-3 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500" href="../pages/bestemmingen.ejs" target="_blank">
                     <p>Bestemmingen</p>
                     <i class="fa-solid fa-angle-down mt-1"></i>
                 </a>
             </li>
-            <li><a class="menu-link inline-block mb-2 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../views/pages/over_ons.html" target="_blank">Over ons</a></li>
-            <li><a class="menu-link hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../views/pages/contact.html" target="_blank">Contact</a></li>
+            <li><a class="menu-link inline-block mb-2 hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../pages/over_ons.html" target="_blank">Over ons</a></li>
+            <li><a class="menu-link hover:bg-bon-geel rounded p-2 hover:shadow-xl hover:text-bon-blau-helder hover:duration-500"  href="../pages/contact.html" target="_blank">Contact</a></li>
         </ul>
 
         <ul id="header-bar-right-1-hidden" class="flex flex-col gap-5 m-auto drop-shadow-md">
