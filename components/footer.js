@@ -16,13 +16,13 @@ headerTemplate.innerHTML = `
                     <h2 class="font-extrabold text-2xl">Cookies en Privacy</h2>
                     <ul class="flex flex-col gap-1 mt-1">
                         <li>
-                            <a href="../views/pages/privacybeleid.html" class="hover:text-bon-geel duration-300">Cookies</a>
+                            <a href="../pages/privacybeleid.html" class="hover:text-bon-geel duration-300">Cookies</a>
                         </li>
                         <li>
-                            <a href="../views/pages/privacybeleid.html" class="hover:text-bon-geel duration-300">Privacybeleid</a>
+                            <a href="../pages/privacybeleid.html" class="hover:text-bon-geel duration-300">Privacybeleid</a>
                         </li>
                         <li>
-                            <a href="../views/pages/algemene_voorwarden.html" class="hover:text-bon-geel duration-300">Algemene voorwaarden</a>
+                            <a href="../pages/algemene_voorwarden.html" class="hover:text-bon-geel duration-300">Algemene voorwaarden</a>
                         </li>
                     </ul>
                 </div>
@@ -31,22 +31,22 @@ headerTemplate.innerHTML = `
                     <h4 class="font-extrabold text-2xl">Populaire bestemmingen</h4>
                     <ul class="flex flex-col gap-1 mt-1">
                         <li>
-                            <a href="../views/pages/bestemming/californie/californie.html" class="hover:text-bon-geel duration-300">Californië</a>
+                            <a href="../pages/bestemming/californie/californie.html" class="hover:text-bon-geel duration-300">Californië</a>
                         </li>
                         <li>
-                            <a href="../views/pages/bestemming/frankrijk/frankrijk.html" class="hover:text-bon-geel duration-300">Frankrijk</a>
+                            <a href="../pages/bestemming/frankrijk/frankrijk.html" class="hover:text-bon-geel duration-300">Frankrijk</a>
                         </li>
                         <li>
-                            <a href="../views/pages/bestemming/spanje/spanje.html" class="hover:text-bon-geel duration-300">Spanje</a>
+                            <a href="../pages/bestemming/spanje/spanje.html" class="hover:text-bon-geel duration-300">Spanje</a>
                         </li>
                         <li>
-                            <a href="../views/pages/bestemming/taiwan/taiwan.html" class="hover:text-bon-geel duration-300">Taiwan</a>
+                            <a href="../pages/bestemming/taiwan/taiwan.html" class="hover:text-bon-geel duration-300">Taiwan</a>
                         </li>
                         <li>
-                            <a href="../views/pages/bestemming/singapore/singapore.html" class="hover:text-bon-geel duration-300">Singapore</a>
+                            <a href="../pages/bestemming/singapore/singapore.html" class="hover:text-bon-geel duration-300">Singapore</a>
                         </li>
                         <li>
-                            <a href="../views/pages/bestemming/hawai/hawai.html" class="hover:text-bon-geel duration-300">Hawaï</a>
+                            <a href="../pages/bestemming/hawai/hawai.html" class="hover:text-bon-geel duration-300">Hawaï</a>
                         </li>
                     </ul>
                 </div>
@@ -64,20 +64,20 @@ headerTemplate.innerHTML = `
                     <h4 class="font-extrabold text-2xl">Informatie</h4>
                     <ul class="flex flex-col gap-1 mt-1">
                         <li>
-                            <a href="../views/pages/index.html" class="hover:text-bon-geel duration-300">Home</a>
+                            <a href="../pages/index.html" class="hover:text-bon-geel duration-300">Home</a>
                         </li>
                         <li>
-                            <a href="../views/pages/over_ons.html" class="hover:text-bon-geel duration-300">Over ons</a>
+                            <a href="../pages/over_ons.html" class="hover:text-bon-geel duration-300">Over ons</a>
                         </li>
                         <li>
-                            <a href="../views/pages/contact.html" class="hover:text-bon-geel duration-300">Contact</a>
+                            <a href="../pages/contact.html" class="hover:text-bon-geel duration-300">Contact</a>
                         </li>
                     </ul>
                 </div>
 
                 <div id="nieuwsbrief" class="drop-shadow-md">
                     <h4 class="font-extrabold text-2xl mb-1">Nieuwsbrief</h4>
-                    <a href="../views/pages/nieuwsbrief.html" class="hover:text-bon-geel duration-300" target="_blank">Meld je hier aan voor onze nieuwsbrief</a>
+                    <a href="../pages/nieuwsbrief.html" class="hover:text-bon-geel duration-300" target="_blank">Meld je hier aan voor onze nieuwsbrief</a>
                 </div>
             
                 <div id="sm-bar" class="drop-shadow-md">
