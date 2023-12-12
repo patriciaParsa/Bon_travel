@@ -50,7 +50,7 @@ headerTemplate.innerHTML = `
                 <div class="inhoud flex flex-col items-center">
                     <h3 class="bg-bon-geel text-bon-wit flex justify-center font-extrabold w-1/2 rounded-b-xl p-1 group-hover:shadow-xl">Spanje</h3>
                     <p class="text-center text-sm p-5 w-full text-bon-zwart group">Wat is typisch Spaans? Naast zijn uitstekende keuken biedt Spanje een rijke cultuur, adembenemende kunst, indrukwekkende architectuur en aantrekkelijke stranden.</p>
-                    <a href="../views/pages/bestemming/spanje/spanje.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Spanje</a>
+                    <a href="../pages/bestemming/spanje/spanje.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Spanje</a>
                 </div>
             </div>
 
@@ -65,7 +65,7 @@ headerTemplate.innerHTML = `
                 <div class="inhoud flex flex-col items-center">
                     <h3 class="bg-bon-geel text-bon-wit flex justify-center font-extrabold w-1/2 rounded-b-xl p-1 group-hover:shadow-xl">Californië</h3>
                     <p class="text-center text-sm p-5 w-full text-bon-zwart group">In de "Golden State" vindt men een schitterende kustlijn met zonnige stranden maar ook indrukwekkende canyons, bergketens met gletsjers en prachtige watervallen. Californië wordt tevens bekend van zijn wereldberoemde filmindustrie en technische innovaties.</p>
-                    <a href="../views/pages/bestemming/californie/californie.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Californië</a>
+                    <a href="../pages/bestemming/californie/californie.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Californië</a>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@ headerTemplate.innerHTML = `
                 <div class="inhoud flex flex-col items-center">
                     <h3 class="bg-bon-geel text-bon-wit flex justify-center font-extrabold w-1/2 rounded-b-xl p-1 group-hover:shadow-xl">Hawaï</h3>
                     <p class="text-center text-sm p-5 w-full text-bon-zwart group">Archipel vol vulkanen met mooie stranden geliefd vooral onder surfers en snorkelaars. Eilanden hebben een gevarieerd landschap en tropisch klimaat waardoor wordt Hawaï erg populair onder toeristen van over de hele wereld.</p>
-                    <a href="../views/pages/bestemming/hawai/hawai.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Hawaï</a>
+                    <a href="../pages/bestemming/hawai/hawai.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Hawaï</a>
                 </div>
             </div>
 
@@ -95,7 +95,7 @@ headerTemplate.innerHTML = `
                 <div class="inhoud flex flex-col items-center">
                     <h3 class="bg-bon-geel text-bon-wit flex justify-center font-extrabold w-1/2 rounded-b-xl p-1 group-hover:shadow-xl">Taiwan</h3>
                     <p class="text-center text-sm p-5 w-full text-bon-zwart group">Taiwan als een verborgen paradijs. Indrukwekkende tempels, mysterieuze meren en tropische natuurverschijnselen: dat is wat Taiwan siert. Of men nu koloniale steden wilt bezoeken, gaat relaxen aan het strand of wilt wandelen in de bergen, in Taiwan kan het allemaal!</p>
-                    <a href="../views/pages/bestemming/taiwan/taiwan.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Taiwan</a>
+                    <a href="../pages/bestemming/taiwan/taiwan.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Taiwan</a>
                 </div>
             </div>
 
@@ -110,7 +110,7 @@ headerTemplate.innerHTML = `
                 <div class="inhoud flex flex-col items-center">
                     <h3 class="bg-bon-geel text-bon-wit flex justify-center font-extrabold w-1/2 rounded-b-xl p-1 group-hover:shadow-xl">Singapore</h3>
                     <p class="text-center text-sm p-5 w-full text-bon-zwart group">Singapore staat bekend om zijn skyline met vele hoge wolkenkrabbers, grote industrieterreinen, winkelstraten en de altijd schone straten. Aan de kustlijn vindt u een aantal brede zandstranden en in het binnenland een aantal natuurreservaten en botanische tuinen.</p>
-                    <a href="../views/pages/bestemming/singapore/singapore.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Singapore</a>
+                    <a href="../pages/bestemming/singapore/singapore.html" class="bestemmingen-button bg-bon-blau-donker text-bon-wit p-3 rounded-xl mb-5 hover:bg-bon-geel hover:duration-500 hover:shadow-xl z-40" target="_blank">Ontdek Singapore</a>
                 </div>
             </div>                 
             
