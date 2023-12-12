@@ -25,7 +25,7 @@ headerTemplate.innerHTML = `
         <div id="bestemmingen-lijst" class="grid grid-cols-3 justify-items-center m-auto px-32 max-lg:grid-cols-2 max-md:px-16 max-sm:grid-cols-1 max-sm:px-8">
 
             <div class="bestemming border pb-60 hover:shadow-2xl group w-3/4 h-2/3 relative">
-                <a href="../views/pages/bestemming/frankrijk/frankrijk.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
+                <a href="../pages/bestemming/frankrijk/frankrijk.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
                         <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/frankrijk.jpg" alt="img">
@@ -40,7 +40,7 @@ headerTemplate.innerHTML = `
             </div>
 
             <div class="bestemming border pb-60 hover:shadow-2xl group w-3/4 h-2/3 relative">
-                <a href="../views/pages/bestemming/spanje/spanje.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
+                <a href="../pages/bestemming/spanje/spanje.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
                         <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/spanje.jpg" alt="img">
@@ -55,7 +55,7 @@ headerTemplate.innerHTML = `
             </div>
 
             <div class="bestemming border pb-60 hover:shadow-2xl group w-3/4 h-2/3 relative">
-                <a href="../views/pages/bestemming/californie/californie.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
+                <a href="../pages/bestemming/californie/californie.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
                         <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/californie.jpg" alt="img">
@@ -70,7 +70,7 @@ headerTemplate.innerHTML = `
             </div>
 
             <div class="bestemming border pb-60 hover:shadow-2xl group w-3/4 h-2/3 relative">
-                <a href="../views/pages/bestemming/hawai/hawai.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
+                <a href="../pages/bestemming/hawai/hawai.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
                         <img class="w-full h-1/2 max-h-60 group-hover:scale-125 group-hover:duration-500" src="../public/assets/hawai.jpg" alt="img">
@@ -85,7 +85,7 @@ headerTemplate.innerHTML = `
             </div>
 
             <div class="bestemming border pb-60 hover:shadow-2xl group w-3/4 h-2/3 relative">
-                <a href="../views/pages/bestemming/taiwan/taiwan.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
+                <a href="../pages/bestemming/taiwan/taiwan.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
                         <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/taiwan.jpg" alt="img">
@@ -100,7 +100,7 @@ headerTemplate.innerHTML = `
             </div>
 
             <div class="bestemming border pb-60 hover:shadow-2xl group w-3/4 h-2/3 relative">
-                <a href="../views/pages/bestemming/singapore/singapore.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
+                <a href="../pages/bestemming/singapore/singapore.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
                         <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/singapore.jpg" alt="img">
