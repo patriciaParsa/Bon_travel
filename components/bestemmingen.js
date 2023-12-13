@@ -28,7 +28,7 @@ headerTemplate.innerHTML = `
                 <a href="../pages/bestemming/frankrijk/frankrijk.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
-                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="/public/assets/frankrijk.jpg" alt="img">
+                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../assets/frankrijk.jpg" alt="img">
                     </div>
                 </div>   
                 
@@ -58,7 +58,7 @@ headerTemplate.innerHTML = `
                 <a href="../pages/bestemming/californie/californie.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
-                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/californie.jpg" alt="img">
+                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" ="../assets/californie.jpg" alt="img">
                     </div>
                 </div>   
                 
@@ -73,7 +73,7 @@ headerTemplate.innerHTML = `
                 <a href="../pages/bestemming/hawai/hawai.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
-                        <img class="w-full h-1/2 max-h-60 group-hover:scale-125 group-hover:duration-500" src="../public/assets/hawai.jpg" alt="img">
+                        <img class="w-full h-1/2 max-h-60 group-hover:scale-125 group-hover:duration-500" src="../assets/hawai.jpg" alt="img">
                     </div>
                 </div>   
                 
@@ -88,7 +88,7 @@ headerTemplate.innerHTML = `
                 <a href="../pages/bestemming/taiwan/taiwan.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
-                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/taiwan.jpg" alt="img">
+                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../assets/taiwan.jpg" alt="img">
                     </div>
                 </div>   
                 
@@ -103,7 +103,7 @@ headerTemplate.innerHTML = `
                 <a href="../pages/bestemming/singapore/singapore.html" class="absolute top-0 w-full h-full z-30 text-transparent" target="_blank">card</a>
                 <div class="group-hover:shadow-bottom"> 
                     <div class="foto group-hover:overflow-hidden">
-                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../public/assets/singapore.jpg" alt="img">
+                        <img class="w-full h-1/2 group-hover:scale-125 group-hover:duration-500" src="../assets/singapore.jpg" alt="img">
                     </div>
                 </div>   
                 
